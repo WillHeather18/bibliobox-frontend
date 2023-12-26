@@ -1,4 +1,3 @@
-import react from 'react';
 import AppBar from '../Components/AppBar';
 import '../styles/Ourboxes.css';
 

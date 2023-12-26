@@ -1,4 +1,3 @@
-import { ReactComponent as UserIcon } from '../assets/profile.svg';
 import { ReactComponent as BibIcon } from '../assets/Bib.svg';
 import { Link } from 'react-router-dom';
 
