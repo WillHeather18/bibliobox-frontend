@@ -1,0 +1,103 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kalnia:wght@300&family=Lora&display=swap');
+
+.home-page{
+    font-family: 'Lora', serif;
+}
+
+.home-page-hero{
+    position: relative;
+    background-image: url(../assets/HomeBackground2.jpg);
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    transform: scaleX(-1);
+    animation: fadeIn 0.5s ease-in-out;
+    box-shadow: 0px 0px 2px 2px #916942;
+}
+
+.hero-text {
+    transform: scaleX(-1);
+    color: black;
+    left: 5%;
+    top : 13%;
+    font-size: 23px;
+    position: absolute;
+    text-align: left;
+    animation: fadeIn 1s ease-in-out;
+}
+
+.boxes-button {
+    color: white;
+    background-color: #222;
+    transform: scaleX(-1);
+    position: absolute;
+    right: 0;
+    left: 0;
+    margin: auto;
+    bottom: 10%;
+    width : 15vw;
+    height : 5vh;
+    border-radius: 3px;
+    font-size: 1vw;
+    outline: none;
+    border: none;
+    animation: fadeIn 2s ease-in-out;
+}
+
+.down-arrow {
+    position: absolute;
+    height :3vh;
+    width : 3vh;
+    margin: auto;
+    left: 0;
+    right: 0;
+    bottom : 5%;
+    animation: fadeIn 4s ease-in-out;
+    transition: box-shadow 0.3s ease; /* Add this line */
+    border-radius : 50%;
+}
+
+.down-arrow:hover {
+    cursor: pointer;
+}
+
+.how-it-works {
+    height : 100vh;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.how-it-works-title {
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 5vh;
+    height: 10vh;
+}
+
+.step1{
+    align-self: flex-end;
+    text-align: left;
+    height : 25vh;
+    width : 50%;
+}
+
+.step2{
+    align-self: flex-start;
+    text-align: left;
+    height : 25vh;
+    width : 50%;
+}
+
+.step3{
+    align-self: flex-end;
+    text-align: left;
+    height : 25vh;
+    width : 50%;
+}
+
+.step-title {
+    font-size: 2rem;
+}

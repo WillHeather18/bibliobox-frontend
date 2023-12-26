@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalnia:wght@300&family=Lora&display=swap');
+
+.App {
+  text-align: center;
+}
+
+.app-bar {
+  top: 0;
+  display: flex;
+  justify-content: space-between; 
+  height: 10vh;
+  width: 100%;
+  align-items: center;
+  background-color: white;
+  z-index: 2; /* Higher z-index */
+  position: fixed; /* Position the header relative to the rest of the page */ /* Add shadow at the bottom */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease-in-out;
+  font-family : 'Kalnia', serif;
+}
+
+.app-bar-transparent {
+  background-color: transparent; /* semi-transparent white */
+  box-shadow: none;
+}
+
+.left-items {
+  display: flex;
+  gap: 5vw;
+  align-items: center;
+}
+
+.nav-links {
+  display: flex;
+  gap: 5vw;
+  height: 10vh;
+}
+
+.nav-links button {
+  color: black;
+  background-color: transparent; /* makes the button background transparent */
+  border: none; /* removes the border */
+}
+
+.title{
+  padding-left: 5vw;
+}
+
+.profile-icon svg {
+  width: 7vh;
+  height: 7vw;
+  margin-right: 5vh;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+.dashboard-button{
+  color: white;
+}
+
+.login-page{
+  margin-top: 10vh;
+}
+
+@keyframes fadeIn {
+  from {
+      opacity: 0;
+  }
+  to {
+      opacity: 1;
+  }
+}

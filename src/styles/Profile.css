@@ -1,0 +1,111 @@
+/* Profile.css */
+  
+
+.profile-page {
+  display: flex;
+  padding: 2%; /* Use percentage for padding */
+  border-radius: 10px;
+  background-color: white;
+  width: 70%; /* Use percentage for width */
+  margin: auto; 
+  margin-top: 5vh;
+  box-shadow: 0px -4px 8px rgba(0, 0, 0, 0.2);
+  z-index: 1; /* Lower z-index */
+  position: relative;
+  flex-direction: column; 
+  margin-top: 5vh;
+}
+  
+  h1 {
+    text-align: left;
+    font-size: larger;
+  }
+
+  .profile-container {
+    display: flex;
+    flex-grow: 2; /* Allow this element to take up more space */
+    justify-content: center; /* Horizontally center the content */
+  }
+  
+  .menu-container {
+    margin-right: 5%;
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 20%; /* This means the menu-container will not grow or shrink and will have a base size of 20% */
+  }
+  
+.profile-container {
+  display: flex;
+  width: 100%; /* Adjust as needed */
+  justify-content: center; /* Horizontally center the content */
+}
+  
+  .menu-title {
+    /* Add your styles for the menu title here */
+  }
+  
+  .menu-button {
+    background-color: white; /* Green */
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border: 2px solid transparent;
+    border-bottom: 2px solid lightgrey;
+  }
+  
+  .menu-button:hover {
+    background-color: white; 
+    color: black; 
+    border: 2px solid black;
+  }
+  
+  .logout-button {
+    /* Add your styles for the logout button here */
+  }
+  
+  .profile-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; /* Horizontally center the content */
+    flex-grow: 1; /* Allow this element to take up the remaining space */
+    padding: 2%;
+    position: relative;
+  }
+  
+  .profile-title {
+    /* Add your styles for the profile title here */
+  }
+  
+  .tab-content {
+    /* Add your styles for the tab content here */
+  }
+
+  .uuid {
+    font-size: 10px; /* Adjust as needed */
+    color: #333; /* Dark grey */
+    position: absolute;
+    bottom: 0;
+  }
+
+  .tab-title {
+    position: absolute;
+  top: 1vh;
+  }
+
+  @media (max-width: 768px) {
+    .larger-container {
+      flex-direction: column;
+      width: 90%;
+    }
+  
+    .menu-container {
+      margin-right: 0;
+    }
+  }
